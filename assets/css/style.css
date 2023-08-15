@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    /* height: 100vh; */
+    background-color: rgb(42, 1, 81);
+    margin-top: 65px;
+    margin-left: 40%;
+}
+.box1 {
+    /* margin-left: 40%;    */
+    
+}
+.container1{
+    display: flex;
+    background-color: rgb(253, 80, 80);
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container1>.text1{
+    margin-left: 25px;
+    color: white;
+}
+.container1>img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.contact {
+background-color: red;
+width: 300px;
+height: 20px;
+padding: 10px;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+color: white;
+
+}
+.contact>.fa-chevron-up{
+    background-color: yellow;
+    padding: 10px;
+    margin-top: -25px;
+    border-radius: 100%;
+    float: right;
+    color: red;
+}
+
+.box2 {
+    background-color: #fff;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    /* margin-left: 40%; */
+    margin-top: 2%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.box2>.fa-m {
+    background-color: red;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    margin-left:10px ;
+}
+.box2>.text2 {
+  margin-left: 20px;
+}
+.box2>.fa-chevron-right {
+    margin-left: 30px;
+    color: lightgray;
+}
+.box2>.text2>h3 {
+    color: red;
+}
+.box2>.text2>p {
+    color: rgba(0,0,0,0.3);
+}
+
+.box3 {
+    background-color: #fff;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    /* margin-left: 40%; */
+    margin-top: 2%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.box3>.fa-square-facebook{
+    padding: 10px;
+    border-radius: 50%;
+    margin-left:10px;
+    background-color: blue;
+    color: white;
+}
+.box3>.text3 {
+    margin-left: 20px;
+}
+.box3>.fa-chevron-right {
+   
+    margin-left: 125px;
+    color: lightgray;
+}
+.box3>.text3>h3 {
+    color: blue;
+}
+.box3>.text3>p {
+    color: rgba(0,0,0,0.3);
+}
+.box4 {
+    display: flex;
+    background-color: #fff;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    /* margin-left: 40%; */
+    margin-top: 2%;
+    border-radius: 10px;
+    align-items: center;
+}
+.box4>.fa-twitter{
+    padding: 10px;
+    background-color: rgb(29, 161, 242);
+    border-radius: 50%;
+    color: white;
+    margin-left: 10px;
+}
+.box4>.text4{
+    margin-left: 20px;
+}
+.box4>.fa-chevron-right{
+    margin-left: 110px;
+    color: lightgray;
+}
+.box4>.text4>h3 {
+    color: rgb(29,161,242);
+}
+.box4>.text4>p{
+    color: rgba(0,0,0,0.3);
+}
